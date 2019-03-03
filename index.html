@@ -7,13 +7,14 @@
 	<body>
 		<h1 id="name">hello world</h1>
 		<input type="button" name="" id="" value="test" onclick="clickOnButton()" />
-        <br />
+		<br />
 		<img src="img/IMG_8576.jpg" width="300px" height="300px" id="change_img1" sizes="any" onclick="change_img()">
 		<script>
 			document.write("<h1>this is a title</h1>");
 			document.write("<p>this is a parm</p>");
-            document.getElementById("name").style.color="blue";
-            document.getElementById("name").style.background="grey";
+			document.getElementById("name").style.color = "blue";
+			document.getElementById("name").style.background = "grey";
+
 			function clickOnButton() {
 				x = document.getElementById("name");
 				x.innerHTML = "just change";
